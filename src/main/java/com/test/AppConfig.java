@@ -12,6 +12,14 @@ import java.util.Arrays;
  * Created by Administrator on 2017/2/21 0021.
  *
  * 没有application.properties文件时，启动出错,log4j……。
+ *
+ * 引入<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    ，会自动添加一些rest风格管理服务，如/error,/info,/health……
+ *
+ *
  */
 @SpringBootApplication
 public class AppConfig {

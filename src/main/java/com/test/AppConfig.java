@@ -10,6 +10,8 @@ import java.util.Arrays;
 
 /**
  * Created by Administrator on 2017/2/21 0021.
+ *
+ * 没有application.properties文件时，启动出错,log4j……。
  */
 @SpringBootApplication
 public class AppConfig {

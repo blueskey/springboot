@@ -20,6 +20,9 @@ import java.util.Arrays;
     ，会自动添加一些rest风格管理服务，如/error,/info,/health……
  *
  *
+ *
+ * @SpringBootApplication <==> @Configuration, @EnableAutoConfiguration，@ComponentScan组合
+ *
  */
 @SpringBootApplication
 public class AppConfig {
